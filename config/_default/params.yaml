@@ -2,11 +2,14 @@
 # Guide: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+theme: academic
 
 # Appearance
 appearance:
-  mode: system
-  color: indigo
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: S
 
 # SEO
 marketing:
@@ -30,12 +33,12 @@ marketing:
 header:
   navbar:
     enable: true
-    block: 'navbar'
+    blox: "navbar"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: "Onat"
 
 # Site footer
 footer:
