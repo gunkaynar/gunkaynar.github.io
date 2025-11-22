@@ -3,9 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Gün Kaynar # Website name
-# theme: hugo-theme-notrack
-baseURL: 'https://gunkaynar.github.io/'
+baseURL: "https://gunkaynar.com/"
+title: "Gün Kaynar"
 
 params:
   style:
