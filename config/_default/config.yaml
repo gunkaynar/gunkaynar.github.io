@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Onat Dalmaz # Website name
+title: Gün Kaynar # Website name
 # theme: hugo-theme-notrack
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://gunkaynar.github.io/'
 
 params:
   style:
