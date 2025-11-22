@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Onat Dalmaz
+title: Gün Kaynar
 
 # Name pronunciation (optional)
 # name_pronunciation: Onat Dalmaz
 
 # Full name (for SEO)
-first_name: Onat
-last_name: Dalmaz
+first_name: Gün
+last_name: Kaynar
 
 # Status emoji (optional)
 status:
@@ -20,62 +20,61 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Candidate · Machine Learning & Signal Processing
+role: Ph.D. Student · Machine Learning & Computational Biology
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Carnegie Mellon University
+    url: https://www.cmu.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: fas/envelope
-    url: 'mailto:onat@stanford.edu'
+    url: 'mailto:kaynar@cmu.edu'
     label: E-mail Me
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=mZrepoMAAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=yg_fsO0AAAAJ&hl=en
   - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Onat-Dalmaz
+    url: https://www.researchgate.net/profile/Gun-Kaynar?ev=hdr_xprf
   - icon: brands/github
-    url: https://github.com/onat-dalmaz
+    url: https://github.com/gunkaynar
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/onat-dalmaz-0921a0168/
+    url: https://www.linkedin.com/in/gunkaynar/
 
 # Interests to show in About widget
 interests:
-  - Signal Processing
   - Machine Learning
-  - Generative & Diffusion Models
-  - Inverse Problems
-  - Uncertainty Quantification
-  - Compressed & Computational MRI
+  - Deep Learning
+  - AI for Science
+  - Computational Biology
+  - Reinforcement Learning
+  - Sequence Modeling
 
 # Education to show in About widget
 education:
-  - area: Ph.D., Electrical Engineering
-    institution: Stanford University
-    date_start: 2023-01-01
+  - area: Ph.D., School of Computer Science
+    institution: Carnegie Mellon University
+    date_start: 2024-01-01
     # date_end: 2027-01-01
     summary: |
-      Focused on research in machine learning and medical imaging.
-  - area: M.Sc., Electrical and Electronics Engineering
+      Focused on research in machine learning and computational biology.
+  - area: M.Sc., Computer Science
     institution: Bilkent University
-    date_start: 2020-01-01
-    date_end: 2023-01-01
+    date_start: 2021-01-01
+    date_end: 2024-01-01
     summary: |
       Worked on advanced machine learning methods.
-  - area: B.Sc., Electrical and Electronics Engineering
-    institution: Bilkent University
+  - area: B.Sc., Molecular Biology and Genetic -- Computer Science
+    institution: Bogazici University
     date_start: 2016-01-01
-    date_end: 2020-01-01
-    summary: |
-      GPA: 3.4/4.0
+    date_end: 2021-01-01
+    # summary: |
       
-      Courses included:
-      - Signal Processing
-      - Computer Vision
-      - Machine Learning
+    #   Courses included:
+    #   - Signal Processing
+    #   - Computer Vision
+    #   - Machine Learning
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -113,7 +112,9 @@ languages:
     percent: 100
   - name: Turkish
     percent: 100
-
+  - name: Spanish
+    percent: 100
+    
 # Awards.
 awards:
   - title: Best Paper Award in Machine Learning Conference
