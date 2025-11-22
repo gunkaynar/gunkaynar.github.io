@@ -126,14 +126,10 @@ awards:
 
 ## About Me
 
-I am a Ph.D. candidate in Electrical Engineering at Stanford University, co-advised by
-[Brian Hargreaves](https://med.stanford.edu/profiles/brian-hargreaves#bio) and
-[Akshay Chaudhari](https://profiles.stanford.edu/akshay-chaudhari).
-Previously, I earned my M.Sc. and B.Sc. at Bilkent University under
-[Tolga Cukur](http://kilyos.ee.bilkent.edu.tr/~cukur/).
+I am a Ph.D. student at the School of Computer Science at Carnegie Mellon University, advised by
+[Carl Kingsford](https://www.cs.cmu.edu/cmlh/people/carl).
+Previously, I earned my M.Sc. in Computer Science at Bilkent University under
+[A. Ercument Cicek](http://ciceklab.cs.bilkent.edu.tr/ercument), and my B.Sc at Bogazici University.
 
-My research sits at the intersection of machine learning, signal processing, and
-computational MRI. I design probabilistic tools that turn
-high-dimensional inverse problems into tractable uncertainty-quantification
-tasks. The goal is to make deep image‐reconstruction models both
-explainable and reliable for clinical decision making.
+My research sits at the intersection of machine learning, optimization, and
+computational biology. I build reinforcement learning models for RNA sequence optimization and mRNA design. I also develop generative models for synthetic electronic health record (EHR) data to enable robust training and evaluation under severe label imbalance. I design biologically informed neural networks and hybrid models that combine mechanistic simulation with deep language models to tackle complex problems such as genomic sequence understanding and ribosome dynamics. More broadly, I am interested in AI for science and medicine, with an emphasis on interpretable models, realistic benchmarks, and open-source tools that other researchers can build on.
