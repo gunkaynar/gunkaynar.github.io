@@ -1,6 +1,6 @@
 ---
 title: CMU
-summary: Starting in Fall 2024, I’ll be pursuing my Ph.D. studies at CMU!
+text:: Starting in Fall 2024, I’ll be pursuing my Ph.D. studies at CMU!
 date: 2024-02-02
 #18 April 2022
 # Featured image
