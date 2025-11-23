@@ -78,51 +78,51 @@ education:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 90
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 95
-        icon: brain
-      - name: MATLAB
-        description: ''
-        percent: 85
-        icon: math
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python
+#         description: ''
+#         percent: 90
+#         icon: code-bracket
+#       - name: Machine Learning
+#         description: ''
+#         percent: 95
+#         icon: brain
+#       - name: MATLAB
+#         description: ''
+#         percent: 85
+#         icon: math
 
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 70
-        icon: person-simple-walk
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking
+#         description: ''
+#         percent: 70
+#         icon: person-simple-walk
+#       - name: Photography
+#         description: ''
+#         percent: 80
+#         icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Turkish
-    percent: 100
-  - name: Spanish
-    percent: 100
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Turkish
+#     percent: 100
+#   - name: Spanish
+#     percent: 100
     
 # Awards.
-awards:
-  - title: Best Paper Award in Machine Learning Conference
-    date: '2022-11-15'
-    awarder: IEEE
-    summary: |
-      Recognized for significant contributions to the development of generative models for medical imaging.
----
+# awards:
+#   - title: Best Paper Award in Machine Learning Conference
+#     date: '2022-11-15'
+#     awarder: IEEE
+#     summary: |
+#       Recognized for significant contributions to the development of generative models for medical imaging.
+# ---
 
 ## About Me
 
