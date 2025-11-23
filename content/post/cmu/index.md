@@ -1,7 +1,7 @@
 ---
 title: CMU
 summary: Starting in Fall 2024, I’ll be pursuing my Ph.D. studies at CMU!
-date: 2024-02-07
+date: 2024-02-02
 #18 April 2022
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
