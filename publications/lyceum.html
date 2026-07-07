@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<link rel="icon" href="../images/favicon.png" type="image/png">
+	<meta name="description" content="LYCEUM: learning to call copy number variants on low-coverage ancient genomes">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<title>LYCEUM — Gün Kaynar</title>
+</head>
+
+<body>
+	<header>
+		<p><a href="../index.html#publications">&larr; Back to Publications</a></p>
+		<h1>LYCEUM: learning to call copy number variants on low-coverage ancient genomes</h1>
+	</header>
+
+	<main>
+	<article>
+		<p>MA Yilmaz<sup>*</sup>, AA Ceylan<sup>*</sup>, <strong>Gün Kaynar</strong><sup>*</sup>, AE Cicek<br>
+		<em>Bioinformatics</em> 41 (Supplement_1), 2025<br>
+		<span class="equal-contrib"><sup>*</sup>Equal contribution</span></p>
+
+		<p>Copy number variants (CNVs) are pivotal in driving phenotypic variation that facilitates species adaptation. They are significant contributors to various disorders, making ancient genomes crucial for uncovering the genetic origins of disease susceptibility across populations. However, detecting CNVs in ancient DNA (aDNA) samples poses substantial challenges due to several factors: aDNA is often highly degraded; contamination from microbial DNA and DNA from closely related species introduces additional noise into sequencing data; and the typically low coverage of aDNA renders accurate CNV detection particularly difficult. Conventional CNV calling algorithms, which are optimized for high-coverage read-depth signals, underperform under such conditions. We introduce LYCEUM, the first machine learning-based CNV caller for aDNA. We employ a two-step training strategy: the model is pre-trained on whole genome sequencing data from the 1000 Genomes Project, then fine-tuned using high-confidence CNV calls derived from a few existing high-coverage aDNA samples adapted to downsampled read depth signals. LYCEUM achieves accurate detection of CNVs even in typically low-coverage ancient genomes, and its segmental deletion calls correlate with the demographic history of the samples and exhibit patterns of negative selection in line with natural selection.</p>
+
+		<img class="pub-figure" src="../images/pub-lyceum.png" alt="LYCEUM">
+
+		<p><a href="https://doi.org/10.1093/bioinformatics/btaf244">View paper in Bioinformatics &rarr;</a></p>
+	</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Gün Kaynar</p>
+	</footer>
+</body>
+</html>

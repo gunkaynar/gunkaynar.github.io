@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<link rel="icon" href="../images/favicon.png" type="image/png">
+	<meta name="description" content="ECOLE: Learning to call copy number variants on whole exome sequencing data">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<title>ECOLE — Gün Kaynar</title>
+</head>
+
+<body>
+	<header>
+		<p><a href="../index.html#publications">&larr; Back to Publications</a></p>
+		<h1>ECOLE: Learning to call copy number variants on whole exome sequencing data</h1>
+	</header>
+
+	<main>
+	<article>
+		<p>B Mandiracioglu, F Ozden, <strong>Gün Kaynar</strong>, MA Yilmaz, C Alkan, AE Cicek<br>
+		<em>Nature Communications</em> 15 (1), 2024</p>
+
+		<p>Copy number variants (CNV) are shown to contribute to the etiology of several genetic disorders. Accurate detection of CNVs on whole exome sequencing (WES) data has been a long sought-after goal for use in clinics. This was not possible despite recent improvements in performance because algorithms mostly suffer from low precision and even lower recall on expert-curated gold standard call sets. Here, we present a deep learning-based somatic and germline CNV caller for WES data, named ECOLE. Based on a variant of the transformer architecture, the model learns to call CNVs per exon, using high-confidence calls made on matched WGS samples. We further train and fine-tune the model with a small set of expert calls via transfer learning. We show that ECOLE achieves high performance on human expert labelled data for the first time with 68.7% precision and 49.6% recall. This corresponds to precision and recall improvements of 18.7% and 30.8% over the next best-performing methods, respectively. We also show that the same fine-tuning strategy using tumor samples enables ECOLE to detect RT-qPCR-validated variations in bladder cancer samples without the need for a control sample.</p>
+
+		<img class="pub-figure" src="../images/pub-ecole.png" alt="ECOLE">
+
+		<p><a href="https://doi.org/10.1038/s41467-023-44116-y">View paper in Nature Communications &rarr;</a></p>
+	</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Gün Kaynar</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<link rel="icon" href="../images/favicon.png" type="image/png">
+	<meta name="description" content="Models Know Their Shortcuts: Deployment-Time Shortcut Mitigation">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<title>Models Know Their Shortcuts — Gün Kaynar</title>
+</head>
+
+<body>
+	<header>
+		<p><a href="../index.html#publications">&larr; Back to Publications</a></p>
+		<h1>Models Know Their Shortcuts: Deployment-Time Shortcut Mitigation</h1>
+	</header>
+
+	<main>
+	<article>
+		<p>J Li, S Tang, <strong>Gün Kaynar</strong>, S Du, C Kingsford<br>
+		<em>arXiv preprint arXiv:2604.12277</em>, 2026</p>
+
+		<p>Pretrained text encoders are prone to shortcut learning, relying on token-label correlations that fail once the distribution shifts in deployment. Existing shortcut mitigation methods mainly operate at training time and assume access to training data, training dynamics, or shortcut annotations, which are hardly available during deployment, where only the converged model remains. We show that this model alone suffices to mitigate shortcuts during deployment: a biased model internalizes a signal of its learned shortcuts that can be captured via unsupervised gradient-based attribution. We further prove that deployment-time mitigation is information-theoretically upper-bounded by training-time mitigation. Nevertheless, exploiting this gradient signal, our proposed unsupervised deployment-time shortcut mitigation framework for pretrained text encoders, Shortcut Guardrail, recovers substantial performance under shortcut distribution shift, matching or outperforming training-time baselines across sentiment classification, toxicity detection, and natural language inference.</p>
+
+		<img class="pub-figure" src="../images/pub-shortcuts.png" alt="Models Know Their Shortcuts">
+
+		<p><a href="https://arxiv.org/abs/2604.12277">View paper on arXiv &rarr;</a></p>
+	</article>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 Gün Kaynar</p>
+	</footer>
+</body>
+</html>
