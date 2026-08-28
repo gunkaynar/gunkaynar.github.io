@@ -54,6 +54,10 @@ h2 {
 	font-size: 125%;
 }
 
+article h2, article h3 {
+	margin-left: 1em;
+}
+
 h3 {
 	font-size: 110%;
 	margin: 0 0 0.5em 1em;
@@ -185,6 +189,10 @@ figure.entry figcaption p {
 	height: auto;
 	margin: 0.5em 0 1em 1em;
 	border: 1px solid #E0E0E0;
+}
+
+.pub-figure.figure-small {
+	max-width: 420px;
 }
 
 .equal-contrib {
