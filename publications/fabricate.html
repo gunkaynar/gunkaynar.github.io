@@ -21,6 +21,10 @@
 		<p><strong>Gün Kaynar</strong>, B Yan, C Kingsford<br>
 		<em>NeurIPS 2026 Workshop Who Verifies the Agents? Toward Reliable Agent Development</em>, 2026</p>
 
+		<p>Tool-using LLM agents must recover when a tool call fails, by retrying, switching tools, or revising their plan. We study how agents fail when tools fail, using RetryRealistic, a sandboxed yet realistic testbed for controlled fault injection in which agents operate on a real OS filesystem with genuine permission enforcement, SQLite databases, a deterministic local HTTP server, and a constrained shell, across 8 tools, 9 fault types with controlled persistence, and 30 multi-step tasks. Evaluating four agents over 2,100 fault-fired runs against ground truth, we find that recovery is unreliable (27&ndash;54% correct) and frequently silent: 19&ndash;30% of runs end in a confident fabrication, a wrong answer asserted as fact. The failure mode is governed by the fault type rather than the model: faults that return partial or misleading data drive fabrication (up to 46%), while hard denials drive honest failure. The mechanism is what we call <em>silent ingestion</em>: the agent accepts faulted data as valid on first contact without retrying or flagging the problem, then builds a fabricated answer on top of it. We show that fabrication is reducible: a verification-first Monitor, grounding checks in structured tool outputs and issuing corrective directives rather than hard blocks, raises correct recovery from 42.5% to 48.0% and cuts fabrication from 24.7% to 20.3%. Removing chain-of-thought increases fabrication (+7.7 pp), so deliberation guards against silent ingestion. We release RetryRealistic, the fault-injection toolkit, and all annotated traces.</p>
+
+		<img class="pub-figure" src="../images/pub-fabricate.png" alt="RetryRealistic architecture: Task YAML specifies a fresh sandbox materialized by the Sandbox Manager; the ReAct agent executes tools through a Fault Injector and Tool Registry while a Monitor traces and issues corrective directives">
+
 		<p><a href="https://openreview.net/forum?id=HLCpv21u07">View paper on OpenReview &rarr;</a></p>
 	</article>
 	</main>
